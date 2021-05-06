@@ -280,7 +280,7 @@ Tags: PET, PETUFMA, Materialize
 
  /* Intern Style*/
 
- header {
+ .banner {
      display: flex;
      justify-content: center;
      align-items: center;
@@ -364,6 +364,35 @@ Tags: PET, PETUFMA, Materialize
     background-color:#353a61;
 }
 
+
+.evento{
+    display: grid;
+   
+    grid-template-columns: 30% auto;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.card-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+ .card-description h2{
+     display: inline;
+ }
+
+ .card-description ul li{
+     list-style: none;
+     margin-bottom: 8px;
+ }
+
+ .card-description ul li span,time{
+    font-size: 1.5em;
+ }
+
+
+/* */
 
  #search-button {
  
