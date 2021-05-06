@@ -280,7 +280,7 @@ Tags: PET, PETUFMA, Materialize
 
  /* Intern Style*/
 
- header {
+ .headerGrupo {
      display: flex;
      justify-content: center;
      align-items: center;
