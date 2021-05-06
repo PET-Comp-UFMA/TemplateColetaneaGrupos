@@ -391,7 +391,9 @@ Tags: PET, PETUFMA, Materialize
     font-size: 1.5em;
  }
 
-
+.proximosEventos-conteiner{
+    background-color: whitesmoke;
+}
 /* */
 
  #search-button {
