@@ -301,6 +301,7 @@ Tags: PET, PETUFMA, Materialize
  .subtexto{
      margin: 5px 50px 20px 50px;
      text-align: justify;
+     font-size: 18px;
  }
 
  #grupos-container{
@@ -371,7 +372,7 @@ Tags: PET, PETUFMA, Materialize
      height: 45px;
      width: 18.8%;
      font-size: 14px;
-         font-weight: bold;
+     font-weight: bold;
      color: #fff;
      text-align: center;
      line-height: 42px;
