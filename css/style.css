@@ -280,7 +280,7 @@ Tags: PET, PETUFMA, Materialize
 
  /* Intern Style*/
 
- header {
+ .headerGrupo {
      display: flex;
      justify-content: center;
      align-items: center;
@@ -298,6 +298,21 @@ Tags: PET, PETUFMA, Materialize
  .titulo{
      margin-top: 20px;
  }
+
+ h3{
+    text-align: center; 
+    height: 20vh;
+
+ }
+
+p{
+    font-family: 'Nunito', sans-serif;
+}
+
+ h1{
+    font-family: 'Roboto', sans-serif;
+ }
+
  .subtexto{
      margin: 5px 50px 20px 50px;
      text-align: justify;
@@ -365,6 +380,37 @@ Tags: PET, PETUFMA, Materialize
     background-color:#353a61;
 }
 
+
+.evento{
+    display: grid;
+   
+    grid-template-columns: 30% auto;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.card-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+ .card-description h2{
+     display: inline;
+ }
+
+ .card-description ul li{
+     list-style: none;
+     margin-bottom: 8px;
+ }
+
+ .card-description ul li span,time{
+    font-size: 1.5em;
+ }
+
+.proximosEventos-conteiner{
+    background-color: whitesmoke;
+}
+/* */
 
  #search-button {
  

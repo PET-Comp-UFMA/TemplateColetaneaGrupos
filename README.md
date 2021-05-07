@@ -2,8 +2,8 @@
 
 Página | Membro        | Estado
 ------ | ------        | ------
-Header | Levy          | Em desenvolvimento
-Footer | Levy  	       | Em desenvolvimento
+Header | Levy          | Finalizado
+Footer | Levy  	       | Finalizado
 Home   | Thalisson     | Em desenvolvimento
-Grupos | Carlos & João | Em desenvolvimento
-Eventos|               | Em desenvolvimento 
+Grupos | João          | Em desenvolvimento
+Eventos| Carlos        | Em desenvolvimento 
