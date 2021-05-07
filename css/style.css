@@ -279,6 +279,53 @@ Tags: PET, PETUFMA, Materialize
  }
 
  /* Intern Style*/
+body{
+    font-family: 'Roboto', sans-serif;
+   
+}
+h1{
+    font-size: 2.3em;
+    font-weight: 500;
+   
+}
+
+h2{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+ h3{
+    text-align: center; 
+    height: 20vh;
+    font-size: 1.1em;
+    font-weight: 500;
+    
+ }
+
+ h4{
+    text-align: center; 
+    height: 20vh;
+    font-size: 1em;
+    font-weight: 500;
+
+ }
+nav ul li a{
+    color: #1F2133;
+}
+p{
+    font-family: 'Nunito', sans-serif;
+}
+.container{
+    width: 98%;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EE6E73;
+    height: 200px;
+    color: #fff;
+}
 
  .headerGrupo {
      display: flex;
@@ -295,23 +342,13 @@ Tags: PET, PETUFMA, Materialize
      align-items: center;
 
  }
+
  .titulo{
      margin-top: 20px;
+     color: #1F2133;
  }
 
- h3{
-    text-align: center; 
-    height: 20vh;
-
- }
-
-p{
-    font-family: 'Nunito', sans-serif;
-}
-
- h1{
-    font-family: 'Roboto', sans-serif;
- }
+ 
 
  .subtexto{
      margin: 5px 50px 20px 50px;
@@ -332,7 +369,9 @@ p{
     width: 60%;
     flex-wrap: wrap;
 }
-
+#grupos-title{
+    color: #1F2133;
+}
 .grupo-card{
     display: flex;
     flex-direction: column;
@@ -382,20 +421,24 @@ p{
 
 
 .evento{
-    display: grid;
-   
-    grid-template-columns: 30% auto;
-    margin-right: 40px;
-    margin-left: 40px;
+    display: flex;
+}
+
+.evento .grupo-card{
+    margin-left: 2.5em;
 }
 .card-description{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: justify;
+    margin-left: 5em;
+    margin-right: 5em;
 }
  .card-description h2{
      display: inline;
+     color: #1F2133;
  }
 
  .card-description ul li{
@@ -404,7 +447,8 @@ p{
  }
 
  .card-description ul li span,time{
-    font-size: 1.5em;
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
  }
 
 .proximosEventos-conteiner{
@@ -596,6 +640,41 @@ p{
          padding-bottom: 1%;
          padding-left: 1% !important;
          padding-right: 1% !important;
+     }
+ }
+
+ @media only screen and (max-width : 800px ) {
+     .evento{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+     .evento .grupo-card{
+        margin-left: 0.5em;
+    }
+    h1{
+        font-size: 2em;
+        font-weight: 500;
+    }
+    
+    h2{
+        font-size: 1.3em;
+        font-weight: 500;
+    }
+     h3{
+        text-align: center; 
+        height: 20vh;
+        font-size: 1em;
+        font-weight: 500;
+    
+     }
+    
+     h4{
+        text-align: center; 
+        height: 20vh;
+        font-size: 0.9em;
+        font-weight: 500;
+    
      }
  }
  
