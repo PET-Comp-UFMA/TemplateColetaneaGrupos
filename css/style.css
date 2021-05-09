@@ -419,6 +419,43 @@ p{
     background-color:#353a61;
 }
 
+/* About */
+#about {
+    background: url("../img/sobreimg.jpg");
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    padding: 60px 0 40px 0;
+}
+
+#about h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+  #about p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #fff;
+  
+}
+
+#tabela_valores{
+    overflow:hidden;
+    position: relative;
+    padding: 60px 0 20px 0;
+}
+
+#tabela_valores h2{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+}
+
 
 .evento{
     display: flex;
