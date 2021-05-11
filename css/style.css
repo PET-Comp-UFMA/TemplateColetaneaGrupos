@@ -456,6 +456,57 @@ p{
     color: black;
 }
 
+.tg{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tg td{
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+.tg th{
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;
+}
+
+.tg .tg-o5jv{
+    border-color:#3531ff;
+    font-family:Arial, Helvetica, sans-serif !important;;
+    font-size:14px;
+    text-align:center;
+    vertical-align:middle
+}
+
+.tg .tg-69gl{
+    border-color:#3531ff;
+    font-family:Arial, Helvetica, sans-serif !important;;
+    font-size:14px;
+    text-align:center;
+    vertical-align:top
+}
+
+.tg .tg-fgj1{
+    background-color:#3166ff;
+    border-color:#3166ff;
+    color:#ffffff;
+    font-family:Arial, Helvetica, sans-serif !important;;
+    font-size:14px;
+    font-weight:bold;
+    text-align:center;
+    vertical-align:top
+}
 
 .evento{
     display: flex;
