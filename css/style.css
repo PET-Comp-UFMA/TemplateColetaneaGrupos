@@ -456,6 +456,66 @@ p{
     color: black;
 }
 
+.tg{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tg td{
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+.tg th{
+    border-color:#292C44 !important;
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;
+}
+
+.tg .tg-o5jv{
+    border-color:#292C44 !important;
+    font-family:Arial, Helvetica, sans-serif !important;;
+    font-size:14px;
+    text-align:center;
+    vertical-align:middle
+}
+
+.tg .tg-69gl{
+    border-color:#292C44 !important;
+    font-family:Arial, Helvetica, sans-serif !important;;
+    font-size:14px;
+    text-align:center;
+    vertical-align:top
+}
+
+.tg .tg-fgj1{
+    background-color:#292C44 !important;
+    border-color:#292C44 !important;
+    color:#ffffff;
+    font-family:Arial, Helvetica, sans-serif !important;;
+    font-size:14px;
+    font-weight:bold;
+    text-align:center;
+    vertical-align:top;
+    margin: 10px 5% 10px 5%; 
+}
+.tg tr td {
+    text-align: justify !important;
+    padding: 2rem;
+}
+.row h2{
+    margin-bottom: 40px !important;
+    color: #1F2133;
+}
 
 .evento{
     display: flex;
@@ -490,6 +550,55 @@ p{
 
 .proximosEventos-conteiner{
     background-color: whitesmoke;
+}
+
+.tab{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+.tabs{
+    background-color: #fff;
+}
+
+.tabs li a{
+    color: #292C44 !important;
+    font-weight: 700;
+    font-size: 0.9rem !important;
+}
+.indicator{
+    background-color: #353a61 !important;
+    
+}
+
+.tab-text p{
+    margin: 10px 5% 10px 5%;
+}
+.carousel{
+    height: 500px !important;
+}
+
+.item-1{
+    background-image: url("../img/sec4.png");
+    background-size: cover;
+}
+.item-2{
+    background-image: url("../img/sobreimg.jpg");
+    background-size: cover;
+}
+.item-3{
+    background-image: url("../img/sec4.png");
+    background-size: cover;
+}
+.item-4{
+    background-image: url("../img/sobreimg.jpg");
+    background-size: cover;
+}
+.carousel-item img{
+    z-index: 1;
+}
+.carousel-item p{
+    z-index: 1;
 }
 /* */
 
