@@ -574,6 +574,32 @@ p{
 .tab-text p{
     margin: 10px 5% 10px 5%;
 }
+.carousel{
+    height: 500px !important;
+}
+
+.item-1{
+    background-image: url("../img/sec4.png");
+    background-size: cover;
+}
+.item-2{
+    background-image: url("../img/sobreimg.jpg");
+    background-size: cover;
+}
+.item-3{
+    background-image: url("../img/sec4.png");
+    background-size: cover;
+}
+.item-4{
+    background-image: url("../img/sobreimg.jpg");
+    background-size: cover;
+}
+.carousel-item img{
+    z-index: 1;
+}
+.carousel-item p{
+    z-index: 1;
+}
 /* */
 
  #search-button {
