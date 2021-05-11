@@ -491,6 +491,29 @@ p{
 .proximosEventos-conteiner{
     background-color: whitesmoke;
 }
+
+.tab{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+.tabs{
+    background-color: #fff;
+}
+
+.tabs li a{
+    color: #292C44 !important;
+    font-weight: 700;
+    font-size: 0.9rem !important;
+}
+.indicator{
+    background-color: #353a61 !important;
+    
+}
+
+.tab-text p{
+    margin: 10px 5% 10px 5%;
+}
 /* */
 
  #search-button {
