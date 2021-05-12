@@ -446,14 +446,28 @@ p{
 #tabela_valores{
     overflow:hidden;
     position: relative;
-    padding: 60px 0 20px 0;
+    margin: 20px 5% 20px 5%;
 }
 
+#tabela_valores_mobile{
+    overflow:hidden;
+    position: relative;
+    margin: 20px 5% 20px 5%;
+    display: none;
+}
+#tabela_valores_mobile h2{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #292C44;
+}
 #tabela_valores h2{
     font-size: 36px;
     font-weight: bold;
+    text-align: center;
     margin-bottom: 10px;
-    color: black;
+    color: #292C44;
 }
 
 .tg{
@@ -462,7 +476,7 @@ p{
 }
 
 .tg td{
-    border-color:black;
+    border-color:#292C44;
     border-style:solid;
     border-width:1px;
     font-family:Arial, sans-serif;
@@ -476,14 +490,13 @@ p{
     border-color:#292C44 !important;
     border-style:solid;
     border-width:1px;
-    font-family:Arial, sans-serif;
     font-size:14px;
     font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;
 }
 
 .tg .tg-o5jv{
     border-color:#292C44 !important;
-    font-family:Arial, Helvetica, sans-serif !important;;
+    
     font-size:14px;
     text-align:center;
     vertical-align:middle
@@ -491,7 +504,7 @@ p{
 
 .tg .tg-69gl{
     border-color:#292C44 !important;
-    font-family:Arial, Helvetica, sans-serif !important;;
+    
     font-size:14px;
     text-align:center;
     vertical-align:top
@@ -501,7 +514,7 @@ p{
     background-color:#292C44 !important;
     border-color:#292C44 !important;
     color:#ffffff;
-    font-family:Arial, Helvetica, sans-serif !important;;
+
     font-size:14px;
     font-weight:bold;
     text-align:center;
@@ -821,6 +834,13 @@ p{
         font-size: 0.9em;
         font-weight: 500;
     
+     }
+
+     #tabela_valores_mobile{
+        display: block;
+     }
+     #tabela_valores{
+        display: none;
      }
  }
  
